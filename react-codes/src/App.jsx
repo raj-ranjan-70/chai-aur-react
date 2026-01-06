@@ -1,11 +1,10 @@
-import BgChanger from "./components/BgChanger"
-import Counter from "./components/Counter"
+import PasswordGenerator from "./components/passwordgenerator"
+
 function App() {
 
   return (
     <>
-    <BgChanger></BgChanger>
-    <Counter></Counter>
+    <PasswordGenerator></PasswordGenerator>
     </>
   )
 }
