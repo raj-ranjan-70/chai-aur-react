@@ -31,7 +31,7 @@ function PasswordGenerator() {
     return ( 
         <>
         <h1>Password : {password}</h1> 
-        <button onClick={copyfunc} className="border-2 ">Copy</button> <br />
+        <button onClick={copyfunc} className="border-2 rounded-4xl mx-6 px-2 py-0.5 hover:bg-amber-700 cursor-pointer">Copy</button> <br />
         <input 
         type="checkbox"
         onChange={() => setCharacterAllowed(!characterAllowed)}/>
