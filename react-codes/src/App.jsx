@@ -1,10 +1,14 @@
-import PasswordGenerator from "./components/passwordgenerator"
-
+import CounterWithClassComponent from "./components/CounterWithClassComponent"
+import Stopwatch from "./components/stopwatch"
+import TodoList from "./components/TodoList"
 function App() {
 
   return (
     <>
-    <PasswordGenerator></PasswordGenerator>
+    {/* <CounterWithClassComponent initialvalue = {10}></CounterWithClassComponent> */}
+    {/* <Stopwatch></Stopwatch> */}
+    <TodoList></TodoList>
+
     </>
   )
 }
